@@ -1,3 +1,4 @@
+
 $(document).ready(function(){
 
 $('.sidenav').sidenav();
@@ -14,3 +15,10 @@ $(window).scroll(function () {
                     btn.style.display="";
     }
 });
+
+$(document).ready(function(){
+
+$('.sidenav').sidenav();
+
+});
+
