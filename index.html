@@ -17,113 +17,12 @@
     <!-- Compiled and minified JavaScript -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
     <link rel="stylesheet" href="index.css">
-    <style>
-        *{ margin: 0%; }
-html{
-
-    scroll-behavior: smooth;
-}
-body{margin: 0;
-padding: 0;}
-header{
-      background-image: url(img/Untitled-1.jpg) ;
-      background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-      height: 30%;
-      min-height: 1000px;
-      margin: 0;
-    padding: 0;
-    }
     
-.container1{
-
-    margin: 0 auto;
-    padding: 0 auto;
-}
-/* .nav-wrapper{
-    background-color: #3AAFA9;
-} */
-
-.centerdiv {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-   margin: 0 auto;
-  height: 50%;
-  width: 40%;
-  margin-top: 15vw;  
-
-}
-.btndiv{
-
-    display: flex;
-  justify-content: center;
-  align-items: center;
-   margin: 0 auto;
-   margin-top: 35vw;
-}
-.arrow{
-display: flex;
-justify-content: center;
-align-items: center;
-margin: 0 auto;
-height: 50%;
-width: 40%;
-
-}
-.arrow-color{
-    filter: invert(100%) sepia(0%) saturate(1166%) hue-rotate(52deg) brightness(101%) contrast(99%);
-    transform: rotate(60deg);
-}
-
-@media screen and (max-width: 670px){
-      header{
-        min-height: 500px;
-      }
-      .centerdiv{
-          height: 30%;
-      }
-
-      .arrow-color{
-          width: 100%;
-          height: 70%;
-      }
-    }
-
-
-    .animbtn{
-
-        text-transform: uppercase;
-        display: inline-block;
-        border-radius: 20px;
-        padding: 10px 20px;
-        border:0;
-        animation: moveInBottom 1s ease-out ;
-        animation-fill-mode: backwards;
-
-    }
-    @keyframes moveInBottom {
-    0% {
-        opacity: 0;
-        transform: translateY(30px);
-    }
-
-    100% {
-        opacity: 1;
-        transform: translateY(0px);
-    }
-}
-    </style>
-
-
-
-
-
 </head>
 <body>
-    <Header>
-        <div class="navbar-fixed ">    
+    <div id="home">
+    <Header >
+        <div class="navbar-fixed " >
     <nav class="nav-wrapper grey darken-4  z-depth-0">
      
             <div class="container">
@@ -136,7 +35,7 @@ width: 40%;
                 <li><a href="#about" class="white-text">About</a></li>
                 <li><a href="" class="white-text">Journy</a></li>
                 <li><a href="" class="white-text">Contact</a></li>
-                <li><a href="" class="white-text">Home</a></li>
+                <li><a href="#home" class="white-text">Home</a></li>
             </ul>
                 <!--Mobile Nav bar-->
             <ul id="mobile-nav" class ="sidenav grey darken-4 " style="color: red;">
@@ -153,10 +52,10 @@ width: 40%;
 <a href="#about"><button class="animbtn">Lets Start Journy</button></a>
 </div>
 </Header>
-
+</div>
 
 <div class="grey darken-2" style="padding: 1px;" id="about">
-<div class="centerdiv z-depth-3" >
+<div class="centerdiv white z-depth-3" >
         
 
 
@@ -176,181 +75,3 @@ width: 40%;
 
 </body>
 
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-
-    <!-- Compiled and minified CSS -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
-   
-    <!--Google Matrial Icons--> 
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
-      rel="stylesheet">   
-    <!-- font awesome -->
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">    
-    <!-- Compiled and minified JavaScript -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
-    <link rel="stylesheet" href="index.css">
-    <style>
-        *{ margin: 0%; }
-html{
-
-    scroll-behavior: smooth;
-}
-body{margin: 0;
-padding: 0;}
-header{
-      background-image: url(img/Untitled-1.jpg) ;
-      background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-      height: 30%;
-      min-height: 1000px;
-      margin: 0;
-    padding: 0;
-    }
-    
-.container1{
-
-    margin: 0 auto;
-    padding: 0 auto;
-}
-/* .nav-wrapper{
-    background-color: #3AAFA9;
-} */
-
-.centerdiv {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-   margin: 0 auto;
-  height: 50%;
-  width: 40%;
-  margin-top: 15vw;  
-
-}
-.btndiv{
-
-    display: flex;
-  justify-content: center;
-  align-items: center;
-   margin: 0 auto;
-   margin-top: 35vw;
-}
-.arrow{
-display: flex;
-justify-content: center;
-align-items: center;
-margin: 0 auto;
-height: 50%;
-width: 40%;
-
-}
-.arrow-color{
-    filter: invert(100%) sepia(0%) saturate(1166%) hue-rotate(52deg) brightness(101%) contrast(99%);
-    transform: rotate(60deg);
-}
-
-@media screen and (max-width: 670px){
-      header{
-        min-height: 500px;
-      }
-      .centerdiv{
-          height: 30%;
-      }
-
-      .arrow-color{
-          width: 100%;
-          height: 70%;
-      }
-    }
-
-
-    .animbtn{
-
-        text-transform: uppercase;
-        display: inline-block;
-        border-radius: 20px;
-        padding: 10px 20px;
-        border:0;
-        animation: moveInBottom 1s ease-out ;
-        animation-fill-mode: backwards;
-
-    }
-    @keyframes moveInBottom {
-    0% {
-        opacity: 0;
-        transform: translateY(30px);
-    }
-
-    100% {
-        opacity: 1;
-        transform: translateY(0px);
-    }
-}
-    </style>
-
-
-
-
-
-</head>
-<body>
-    <Header>
-        <div class="navbar-fixed ">    
-    <nav class="nav-wrapper grey darken-4  z-depth-0">
-     
-            <div class="container">
-            <a href="" class="brand-logo white-text" >Logo</a>
-            <a href="" class="sidenav-trigger " data-target="mobile-nav">
-                <i class="material-icons">menu</i>
-            </a>
-            <!--Main Nav bar-->
-            <ul class ="right hide-on-med-and-down">
-                <li><a href="#about" class="white-text">About</a></li>
-                <li><a href="" class="white-text">Journy</a></li>
-                <li><a href="" class="white-text">Contact</a></li>
-                <li><a href="" class="white-text">Home</a></li>
-            </ul>
-                <!--Mobile Nav bar-->
-            <ul id="mobile-nav" class ="sidenav grey darken-4 " style="color: red;">
-               
-                <li><a class="sidenav-close right grey-text text-darken-4 " href="#!">  <i class="material-icons white-text" id="closebtn">close</i></a></li> 
-                <li style="padding-top: 30px;"><a href="" class="white-text" >About</a></li>
-                <li><a href="" class="white-text">Journy</a></li>
-                <li><a href="" class="white-text">Contact</a></li>
-            </ul>
-        </div>
-    </nav>
-</div>
-<div class="btndiv">
-<button class="animbtn">Lets Start Journy</button>
-</div>
-</Header>
-
-
-<div class="grey darken-2" style="padding: 1px;" id="about">
-<div class="centerdiv z-depth-3" >
-        
-
-
-
-</div>
-
-<section class="arrow ">
-    <img src="img/curved-arrow-with-broken-line.svg" class="arrow-color">
-
-</section>
-</div>
-
-<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/js/materialize.min.js"></script>
-<script src="index.js"></script>
-
-
-</body>
-
-</html>
